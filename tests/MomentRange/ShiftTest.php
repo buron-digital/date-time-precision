@@ -45,6 +45,23 @@ final class ShiftTest extends TestCase
     }
 
     #[Test]
+    public function shift_works_with_long_duration(): void
+    {
+        // -- Arrange
+        $momentRange = new MomentRange(Moment::fromString('2026-01-01 10:00:00'), Moment::fromString('2026-01-01 12:00:00'));
+
+        // -- Act & Assert
+        self::assertTrue(new MomentRange(
+            Moment::fromString('2026-07-20 10:00:00'),
+            Moment::fromString('2026-07-20 12:00:00'),
+        )->isEqualTo($momentRange->shiftForward(Duration::fromHours(4_800))));
+        self::assertTrue(new MomentRange(
+            Moment::fromString('2025-06-15 10:00:00'),
+            Moment::fromString('2025-06-15 12:00:00'),
+        )->isEqualTo($momentRange->shiftBackward(Duration::fromHours(4_800))));
+    }
+
+    #[Test]
     public function shift_forward_in_time_zone_fails_when_native_overflow_moves_start_after_end(): void
     {
         // -- Arrange

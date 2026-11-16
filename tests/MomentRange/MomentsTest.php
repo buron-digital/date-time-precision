@@ -43,6 +43,19 @@ final class MomentsTest extends TestCase
     }
 
     #[Test]
+    public function moments_works_with_long_step(): void
+    {
+        // -- Arrange
+        $momentRange = new MomentRange(Moment::fromString('2026-01-01 00:00:00'), Moment::fromString('2027-01-01 00:00:00'));
+
+        // -- Act & Assert
+        self::assertSame([
+            '2026-01-01T00:00:00.000000+00:00',
+            '2026-07-20T00:00:00.000000+00:00',
+        ], $momentRange->moments(Duration::fromHours(4_800))->normalize());
+    }
+
+    #[Test]
     public function moments_fails_with_zero_step(): void
     {
         // -- Arrange

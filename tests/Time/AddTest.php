@@ -65,6 +65,21 @@ final class AddTest extends TestCase
                 new Time(10, 0, 0),
                 Duration::fromHours(49),
             ],
+            'duration with 14 digits of microseconds' => [
+                new Time(13, 46, 40),
+                new Time(20, 0, 0),
+                Duration::fromMicroseconds(10_000_000_000_000),
+            ],
+            'duration of 10002 hours' => [
+                new Time(4, 0, 0),
+                new Time(10, 0, 0),
+                Duration::fromHours(10_002),
+            ],
+            'long duration with microseconds carrying into seconds' => [
+                new Time(5, 46, 41, 1),
+                new Time(12, 0, 0, 999_999),
+                Duration::fromMicroseconds(10_000_000_000_002),
+            ],
         ];
     }
 }

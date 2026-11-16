@@ -50,6 +50,21 @@ final class SubtractTest extends TestCase
                 new Time(1, 0, 0),
                 Duration::fromHours(2),
             ],
+            'duration with 14 digits of microseconds' => [
+                new Time(16, 13, 20),
+                new Time(10, 0, 0),
+                Duration::fromMicroseconds(10_000_000_000_000),
+            ],
+            'duration of 10002 hours' => [
+                new Time(16, 0, 0),
+                new Time(10, 0, 0),
+                Duration::fromHours(10_002),
+            ],
+            'long duration with microseconds borrowing from seconds' => [
+                new Time(18, 13, 19, 999_999),
+                new Time(12, 0, 0, 1),
+                Duration::fromMicroseconds(10_000_000_000_002),
+            ],
         ];
     }
 }
