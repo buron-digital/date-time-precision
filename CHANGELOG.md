@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Fixed `add` and `subtract` of `Moment` and `Time` with a `Duration` of at least 10^13 microseconds (115 days, 17 hours, 46 minutes and 40 seconds). PHP silently miscalculates relative modifiers with more than 13 digits, so those durations resulted in wrong moments and times (e.g. adding or subtracting 365 days moved a moment 10 hours forward). With it `shiftForward` and `shiftBackward` of `MomentRange` were wrong and `moments` of `MomentRange` ran into an endless loop with such a step. The duration is now applied as seconds and microseconds.
+
 ## 1.0.0
 
 First stable release. From now on, breaking changes only happen in major versions.

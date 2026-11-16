@@ -505,7 +505,13 @@ final readonly class Moment implements \Stringable, StringNormalizable, Nullable
     #[\NoDiscard('as Moment is immutable')]
     public function add(Duration $duration): self
     {
-        return $this->modify(sprintf('+%d microseconds', $duration->microseconds));
+        // Split into seconds and microseconds, as PHP silently miscalculates relative numbers with more than 13 digits (> 115 days in
+        // microseconds).
+        return $this->modify(sprintf(
+            '+%d seconds +%d microseconds',
+            $duration->inSeconds(),
+            $duration->microseconds % 1_000_000,
+        ));
     }
 
     /**
@@ -514,7 +520,13 @@ final readonly class Moment implements \Stringable, StringNormalizable, Nullable
     #[\NoDiscard('as Moment is immutable')]
     public function subtract(Duration $duration): self
     {
-        return $this->modify(sprintf('-%d microseconds', $duration->microseconds));
+        // Split into seconds and microseconds, as PHP silently miscalculates relative numbers with more than 13 digits (> 115 days in
+        // microseconds).
+        return $this->modify(sprintf(
+            '-%d seconds -%d microseconds',
+            $duration->inSeconds(),
+            $duration->microseconds % 1_000_000,
+        ));
     }
 
     /**
