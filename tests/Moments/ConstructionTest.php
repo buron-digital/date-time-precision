@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Moments;
+namespace BuronDigital\DateTimePrecision\Moments;
 
-use DigitalCraftsman\DateTimePrecision\Moment;
-use DigitalCraftsman\DateTimePrecision\Moments;
+use BuronDigital\DateTimePrecision\Moment;
+use BuronDigital\DateTimePrecision\Moments;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
@@ -62,7 +62,7 @@ final class ConstructionTest extends TestCase
         };
 
         // -- Assert
-        $this->expectException(\DigitalCraftsman\DateTimePrecision\Exception\CollectionContainsDuplicates::class);
+        $this->expectException(\BuronDigital\DateTimePrecision\Exception\CollectionContainsDuplicates::class);
 
         // -- Act
         new Moments($elements);
@@ -86,7 +86,7 @@ final class ConstructionTest extends TestCase
     public function construction_fails_with_same_moment_from_different_time_zones(): void
     {
         // -- Assert
-        $this->expectException(\DigitalCraftsman\DateTimePrecision\Exception\CollectionContainsDuplicates::class);
+        $this->expectException(\BuronDigital\DateTimePrecision\Exception\CollectionContainsDuplicates::class);
 
         // -- Act
         new Moments([

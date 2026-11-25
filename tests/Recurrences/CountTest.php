@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Recurrences;
+namespace BuronDigital\DateTimePrecision\Recurrences;
 
-use DigitalCraftsman\DateTimePrecision\Recurrence;
-use DigitalCraftsman\DateTimePrecision\Recurrences;
-use DigitalCraftsman\DateTimePrecision\Weekday;
-use DigitalCraftsman\DateTimePrecision\Weekdays;
+use BuronDigital\DateTimePrecision\Recurrence;
+use BuronDigital\DateTimePrecision\Recurrences;
+use BuronDigital\DateTimePrecision\Weekday;
+use BuronDigital\DateTimePrecision\Weekdays;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

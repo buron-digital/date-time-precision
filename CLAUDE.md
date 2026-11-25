@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-A Symfony bundle (`digital-craftsman/date-time-precision`) providing precise date/time value objects as thin wrappers over PHP's `DateTimeImmutable`. The core idea: instead of using `DateTime` for everything, use specific value objects (`Moment`, `Date`, `Time`, `Month`, `Year`, `Day`, `Weekday`, `Weekdays`) that carry only the data they represent.
+A Symfony bundle (`buron-digital/date-time-precision`) providing precise date/time value objects as thin wrappers over PHP's `DateTimeImmutable`. The core idea: instead of using `DateTime` for everything, use specific value objects (`Moment`, `Date`, `Time`, `Month`, `Year`, `Day`, `Weekday`, `Weekdays`) that carry only the data they represent.
 
 All value objects are `final readonly` and immutable. The system assumes UTC internally; timezone-aware operations convert temporarily to the target timezone for the operation, then back to UTC.
 
@@ -51,7 +51,7 @@ make install
 - **`Time`** — hour/minute/second/microsecond.
 - **`Weekday`** / **`Weekdays`** — day-of-week enum-like values.
 
-All value objects implement `StringNormalizable` / `NullableStringDenormalizable` (from `digital-craftsman/self-aware-normalizers`) for Symfony serializer integration, and `NormalizableTypeWithSQLDeclaration` for Doctrine type integration.
+All value objects implement `StringNormalizable` / `NullableStringDenormalizable` (from `buron-digital/self-aware-normalizers`) for Symfony serializer integration, and `NormalizableTypeWithSQLDeclaration` for Doctrine type integration.
 
 ### Comparison Pattern
 

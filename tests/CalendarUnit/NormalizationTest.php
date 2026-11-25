@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\CalendarUnit;
+namespace BuronDigital\DateTimePrecision\CalendarUnit;
 
-use DigitalCraftsman\DateTimePrecision\CalendarUnit;
+use BuronDigital\DateTimePrecision\CalendarUnit;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

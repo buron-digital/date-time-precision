@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Exception;
+namespace BuronDigital\DateTimePrecision\Exception;
 
-use DigitalCraftsman\DateTimePrecision\CalendarUnit;
+use BuronDigital\DateTimePrecision\CalendarUnit;
 
 /**
  * @psalm-immutable

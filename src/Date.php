@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision;
+namespace BuronDigital\DateTimePrecision;
 
-use DigitalCraftsman\SelfAwareNormalizers\Doctrine\NormalizableTypeWithSQLDeclaration;
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\NullableStringDenormalizable;
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\NullableStringDenormalizableTrait;
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\StringNormalizable;
+use BuronDigital\SelfAwareNormalizers\Doctrine\NormalizableTypeWithSQLDeclaration;
+use BuronDigital\SelfAwareNormalizers\Serializer\NullableStringDenormalizable;
+use BuronDigital\SelfAwareNormalizers\Serializer\NullableStringDenormalizableTrait;
+use BuronDigital\SelfAwareNormalizers\Serializer\StringNormalizable;
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 
 final readonly class Date implements \Stringable, StringNormalizable, NullableStringDenormalizable, NormalizableTypeWithSQLDeclaration

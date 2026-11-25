@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Recurrence;
+namespace BuronDigital\DateTimePrecision\Recurrence;
 
-use DigitalCraftsman\DateTimePrecision\Day;
-use DigitalCraftsman\DateTimePrecision\Days;
-use DigitalCraftsman\DateTimePrecision\Exception\InvalidRecurrence;
-use DigitalCraftsman\DateTimePrecision\Recurrence;
-use DigitalCraftsman\DateTimePrecision\RecurrenceFrequency;
-use DigitalCraftsman\DateTimePrecision\Weekday;
-use DigitalCraftsman\DateTimePrecision\Weekdays;
+use BuronDigital\DateTimePrecision\Day;
+use BuronDigital\DateTimePrecision\Days;
+use BuronDigital\DateTimePrecision\Exception\InvalidRecurrence;
+use BuronDigital\DateTimePrecision\Recurrence;
+use BuronDigital\DateTimePrecision\RecurrenceFrequency;
+use BuronDigital\DateTimePrecision\Weekday;
+use BuronDigital\DateTimePrecision\Weekdays;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Weekdays;
+namespace BuronDigital\DateTimePrecision\Weekdays;
 
-use DigitalCraftsman\DateTimePrecision\Exception\CollectionContainsDuplicates;
-use DigitalCraftsman\DateTimePrecision\Weekday;
-use DigitalCraftsman\DateTimePrecision\Weekdays;
+use BuronDigital\DateTimePrecision\Exception\CollectionContainsDuplicates;
+use BuronDigital\DateTimePrecision\Weekday;
+use BuronDigital\DateTimePrecision\Weekdays;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

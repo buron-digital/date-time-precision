@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Week;
+namespace BuronDigital\DateTimePrecision\Week;
 
-use DigitalCraftsman\DateTimePrecision\CalendarPeriod;
-use DigitalCraftsman\DateTimePrecision\Date;
-use DigitalCraftsman\DateTimePrecision\DateRange;
-use DigitalCraftsman\DateTimePrecision\Dates;
-use DigitalCraftsman\DateTimePrecision\Exception\CalendarUnitIsNotSupported;
-use DigitalCraftsman\DateTimePrecision\Exception\WeekIsBefore;
-use DigitalCraftsman\DateTimePrecision\Moment;
-use DigitalCraftsman\DateTimePrecision\MomentRange;
-use DigitalCraftsman\DateTimePrecision\PeriodLimit;
-use DigitalCraftsman\DateTimePrecision\Week;
-use DigitalCraftsman\DateTimePrecision\Weeks;
+use BuronDigital\DateTimePrecision\CalendarPeriod;
+use BuronDigital\DateTimePrecision\Date;
+use BuronDigital\DateTimePrecision\DateRange;
+use BuronDigital\DateTimePrecision\Dates;
+use BuronDigital\DateTimePrecision\Exception\CalendarUnitIsNotSupported;
+use BuronDigital\DateTimePrecision\Exception\WeekIsBefore;
+use BuronDigital\DateTimePrecision\Moment;
+use BuronDigital\DateTimePrecision\MomentRange;
+use BuronDigital\DateTimePrecision\PeriodLimit;
+use BuronDigital\DateTimePrecision\Week;
+use BuronDigital\DateTimePrecision\Weeks;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

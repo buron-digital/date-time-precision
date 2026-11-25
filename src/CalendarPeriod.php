@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision;
+namespace BuronDigital\DateTimePrecision;
 
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\ArrayNormalizable;
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\NullableArrayDenormalizable;
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\NullableArrayDenormalizableTrait;
+use BuronDigital\SelfAwareNormalizers\Serializer\ArrayNormalizable;
+use BuronDigital\SelfAwareNormalizers\Serializer\NullableArrayDenormalizable;
+use BuronDigital\SelfAwareNormalizers\Serializer\NullableArrayDenormalizableTrait;
 
 /**
  * A movement in the calendar (e.g. 1 day or 3 months). As days and months don't have a fixed length, it's applied with the native

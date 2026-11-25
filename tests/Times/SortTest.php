@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Times;
+namespace BuronDigital\DateTimePrecision\Times;
 
-use DigitalCraftsman\DateTimePrecision\Time;
-use DigitalCraftsman\DateTimePrecision\Times;
+use BuronDigital\DateTimePrecision\Time;
+use BuronDigital\DateTimePrecision\Times;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

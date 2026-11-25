@@ -1,7 +1,7 @@
 services:
 
   # Interface autowiring
-  DigitalCraftsman\DateTimePrecision\Clock\Clock: '@DigitalCraftsman\DateTimePrecision\Clock\SystemClock'
+  BuronDigital\DateTimePrecision\Clock\Clock: '@BuronDigital\DateTimePrecision\Clock\SystemClock'
 
-  DigitalCraftsman\DateTimePrecision\Clock\SystemClock:
-    class: DigitalCraftsman\DateTimePrecision\Clock\SystemClock
+  BuronDigital\DateTimePrecision\Clock\SystemClock:
+    class: BuronDigital\DateTimePrecision\Clock\SystemClock

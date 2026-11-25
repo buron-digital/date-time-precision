@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision;
+namespace BuronDigital\DateTimePrecision;
 
 enum PeriodLimit: string
 {

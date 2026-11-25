@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Weekdays;
+namespace BuronDigital\DateTimePrecision\Weekdays;
 
-use DigitalCraftsman\DateTimePrecision\Weekday;
-use DigitalCraftsman\DateTimePrecision\Weekdays;
+use BuronDigital\DateTimePrecision\Weekday;
+use BuronDigital\DateTimePrecision\Weekdays;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DoesNotPerformAssertions;
 use PHPUnit\Framework\Attributes\Test;

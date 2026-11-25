@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\DateTimePrecision;
+namespace BuronDigital\DateTimePrecision\DateTimePrecision;
 
 use PHPUnit\Framework\Attributes\CoversNothing;
 use PHPUnit\Framework\Attributes\DataProvider;
@@ -59,7 +59,7 @@ final class NoDiscardTest extends TestCase
 
         $classNames = [];
         foreach ($files as $file) {
-            $className = sprintf('DigitalCraftsman\\DateTimePrecision\\%s', basename($file, '.php'));
+            $className = sprintf('BuronDigital\\DateTimePrecision\\%s', basename($file, '.php'));
             if (!class_exists($className)
                 && !enum_exists($className)
             ) {

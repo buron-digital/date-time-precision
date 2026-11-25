@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Duration;
+namespace BuronDigital\DateTimePrecision\Duration;
 
-use DigitalCraftsman\DateTimePrecision\Duration;
-use DigitalCraftsman\DateTimePrecision\Exception\InvalidDuration;
+use BuronDigital\DateTimePrecision\Duration;
+use BuronDigital\DateTimePrecision\Exception\InvalidDuration;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

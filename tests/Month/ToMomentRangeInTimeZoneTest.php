@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Month;
+namespace BuronDigital\DateTimePrecision\Month;
 
-use DigitalCraftsman\DateTimePrecision\Moment;
-use DigitalCraftsman\DateTimePrecision\MomentRange;
-use DigitalCraftsman\DateTimePrecision\Month;
+use BuronDigital\DateTimePrecision\Moment;
+use BuronDigital\DateTimePrecision\MomentRange;
+use BuronDigital\DateTimePrecision\Month;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

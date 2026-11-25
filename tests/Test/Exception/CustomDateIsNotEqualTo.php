@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Test\Exception;
+namespace BuronDigital\DateTimePrecision\Test\Exception;
 
 final class CustomDateIsNotEqualTo extends \InvalidArgumentException
 {

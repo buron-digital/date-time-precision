@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Month;
+namespace BuronDigital\DateTimePrecision\Month;
 
-use DigitalCraftsman\DateTimePrecision\CalendarPeriod;
-use DigitalCraftsman\DateTimePrecision\CalendarUnit;
-use DigitalCraftsman\DateTimePrecision\Exception\CalendarUnitIsNotSupported;
-use DigitalCraftsman\DateTimePrecision\Exception\MonthIsBefore;
-use DigitalCraftsman\DateTimePrecision\Month;
+use BuronDigital\DateTimePrecision\CalendarPeriod;
+use BuronDigital\DateTimePrecision\CalendarUnit;
+use BuronDigital\DateTimePrecision\Exception\CalendarUnitIsNotSupported;
+use BuronDigital\DateTimePrecision\Exception\MonthIsBefore;
+use BuronDigital\DateTimePrecision\Month;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

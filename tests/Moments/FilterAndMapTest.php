@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Moments;
+namespace BuronDigital\DateTimePrecision\Moments;
 
-use DigitalCraftsman\DateTimePrecision\Moment;
-use DigitalCraftsman\DateTimePrecision\Moments;
+use BuronDigital\DateTimePrecision\Moment;
+use BuronDigital\DateTimePrecision\Moments;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
