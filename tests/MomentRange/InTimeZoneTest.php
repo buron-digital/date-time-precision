@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\MomentRange;
+namespace BuronDigital\DateTimePrecision\MomentRange;
 
-use DigitalCraftsman\DateTimePrecision\Date;
-use DigitalCraftsman\DateTimePrecision\DateRange;
-use DigitalCraftsman\DateTimePrecision\Exception\MomentRangeIsLongerThanADay;
-use DigitalCraftsman\DateTimePrecision\Exception\TimeRangeStartIsEqualToEnd;
-use DigitalCraftsman\DateTimePrecision\Moment;
-use DigitalCraftsman\DateTimePrecision\MomentRange;
-use DigitalCraftsman\DateTimePrecision\Time;
-use DigitalCraftsman\DateTimePrecision\TimeRange;
+use BuronDigital\DateTimePrecision\Date;
+use BuronDigital\DateTimePrecision\DateRange;
+use BuronDigital\DateTimePrecision\Exception\MomentRangeIsLongerThanADay;
+use BuronDigital\DateTimePrecision\Exception\TimeRangeStartIsEqualToEnd;
+use BuronDigital\DateTimePrecision\Moment;
+use BuronDigital\DateTimePrecision\MomentRange;
+use BuronDigital\DateTimePrecision\Time;
+use BuronDigital\DateTimePrecision\TimeRange;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

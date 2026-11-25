@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Recurrence;
+namespace BuronDigital\DateTimePrecision\Recurrence;
 
-use DigitalCraftsman\DateTimePrecision\Moment;
-use DigitalCraftsman\DateTimePrecision\Recurrence;
-use DigitalCraftsman\DateTimePrecision\Time;
-use DigitalCraftsman\DateTimePrecision\Weekday;
-use DigitalCraftsman\DateTimePrecision\Weekdays;
+use BuronDigital\DateTimePrecision\Moment;
+use BuronDigital\DateTimePrecision\Recurrence;
+use BuronDigital\DateTimePrecision\Time;
+use BuronDigital\DateTimePrecision\Weekday;
+use BuronDigital\DateTimePrecision\Weekdays;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

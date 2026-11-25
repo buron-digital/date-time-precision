@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision;
+namespace BuronDigital\DateTimePrecision;
 
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\ArrayNormalizable;
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\NullableArrayDenormalizable;
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\NullableArrayDenormalizableTrait;
+use BuronDigital\SelfAwareNormalizers\Serializer\ArrayNormalizable;
+use BuronDigital\SelfAwareNormalizers\Serializer\NullableArrayDenormalizable;
+use BuronDigital\SelfAwareNormalizers\Serializer\NullableArrayDenormalizableTrait;
 
 /**
  * A half-open range of moments. The start is part of the range, the end isn't. Therefore, a range ending at 12:00 doesn't overlap with a

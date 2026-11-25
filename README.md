@@ -19,11 +19,17 @@ This package replaces it with small value objects that contain exactly the infor
 
 There are also value objects for durations, calendar periods, ranges and recurrences (see below).
 
-[![Latest Stable Version](https://img.shields.io/badge/stable-1.0.1-blue)](https://packagist.org/packages/digital-craftsman/date-time-precision)
-[![PHP Version Require](https://img.shields.io/badge/php-8.5|8.6-5b5d95)](https://packagist.org/packages/digital-craftsman/date-time-precision)
-[![codecov](https://codecov.io/gh/digital-craftsman-de/date-time-precision/branch/main/graph/badge.svg?token=vZ0IvKPj2f)](https://codecov.io/gh/digital-craftsman-de/date-time-precision)
-![Packagist Downloads](https://img.shields.io/packagist/dt/digital-craftsman/date-time-precision)
-![Packagist License](https://img.shields.io/packagist/l/digital-craftsman/date-time-precision)
+[![Latest Stable Version](https://img.shields.io/badge/stable-2.0.0-blue)](https://packagist.org/packages/buron-digital/date-time-precision)
+[![PHP Version Require](https://img.shields.io/badge/php-8.5|8.6-5b5d95)](https://packagist.org/packages/buron-digital/date-time-precision)
+[![codecov](https://codecov.io/gh/buron-digital/date-time-precision/branch/main/graph/badge.svg?token=vZ0IvKPj2f)](https://codecov.io/gh/buron-digital/date-time-precision)
+![Packagist Downloads](https://img.shields.io/packagist/dt/buron-digital/date-time-precision)
+![Packagist License](https://img.shields.io/packagist/l/buron-digital/date-time-precision)
+
+> [!NOTE]
+> Up to version 1.0.1, the package was published as [`digital-craftsman/date-time-precision`](https://packagist.org/packages/digital-craftsman/date-time-precision) with the namespace `DigitalCraftsman\DateTimePrecision`. See the [upgrade guide](./UPGRADE.md#renamed-package-and-namespace) for how to switch.
+>
+> Downloads under the old name:\
+> [![Packagist Downloads](https://img.shields.io/packagist/dt/digital-craftsman/date-time-precision)](https://packagist.org/packages/digital-craftsman/date-time-precision)
 
 ## Why?
 
@@ -87,7 +93,7 @@ The value objects add precision and readability – the calculations stay where 
 ## Installation
 
 ```shell
-composer require digital-craftsman/date-time-precision
+composer require buron-digital/date-time-precision
 ```
 
 The package follows [semantic versioning](https://semver.org). Changes are described in [the changelog](./CHANGELOG.md) and breaking changes in the [upgrade guide](./UPGRADE.md).
@@ -261,7 +267,7 @@ Every value object has a collection with unique values (e.g. `Dates`, `Days`, `W
 
 The bundle integrates everything automatically:
 
-- **Serializer** – all value objects are normalized and denormalized through [`digital-craftsman/self-aware-normalizers`](https://github.com/digital-craftsman-de/self-aware-normalizers).
+- **Serializer** – all value objects are normalized and denormalized through [`buron-digital/self-aware-normalizers`](https://github.com/buron-digital/self-aware-normalizers).
 - **Doctrine** – there is a Doctrine type for every value object, registered automatically. The class name is the type name:
 
 ```php
@@ -297,3 +303,9 @@ As time handling is a central part of every application, the package is tested t
 The local setup is built with Docker and controlled through Make commands. Run `make` to see all available commands.
 
 Before creating a PR, please run `make verify` to run all tests and validations locally.
+
+## Who's behind this
+
+<a href="https://www.buron.digital"><img src="https://raw.githubusercontent.com/buron-digital/date-time-precision/main/.github/assets/buron-digital-banner.png" alt="Christian Kolb, Buron Digital – Building your digital products. Free initial consultation." width="100%"></a>
+
+<p align="center"><sub><a href="https://www.buron.digital">www.buron.digital</a> · <a href="mailto:info@buron.digital">info@buron.digital</a></sub></p>

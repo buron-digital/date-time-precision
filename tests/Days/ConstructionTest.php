@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Days;
+namespace BuronDigital\DateTimePrecision\Days;
 
-use DigitalCraftsman\DateTimePrecision\Day;
-use DigitalCraftsman\DateTimePrecision\Days;
+use BuronDigital\DateTimePrecision\Day;
+use BuronDigital\DateTimePrecision\Days;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DoesNotPerformAssertions;
 use PHPUnit\Framework\Attributes\Test;

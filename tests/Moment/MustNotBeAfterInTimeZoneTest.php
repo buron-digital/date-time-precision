@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Moment;
+namespace BuronDigital\DateTimePrecision\Moment;
 
-use DigitalCraftsman\DateTimePrecision\Date;
-use DigitalCraftsman\DateTimePrecision\Exception\MomentIsAfter;
-use DigitalCraftsman\DateTimePrecision\Moment;
-use DigitalCraftsman\DateTimePrecision\Month;
-use DigitalCraftsman\DateTimePrecision\Test\Exception\CustomMomentIsAfter;
-use DigitalCraftsman\DateTimePrecision\Time;
-use DigitalCraftsman\DateTimePrecision\Weekday;
-use DigitalCraftsman\DateTimePrecision\Year;
+use BuronDigital\DateTimePrecision\Date;
+use BuronDigital\DateTimePrecision\Exception\MomentIsAfter;
+use BuronDigital\DateTimePrecision\Moment;
+use BuronDigital\DateTimePrecision\Month;
+use BuronDigital\DateTimePrecision\Test\Exception\CustomMomentIsAfter;
+use BuronDigital\DateTimePrecision\Time;
+use BuronDigital\DateTimePrecision\Weekday;
+use BuronDigital\DateTimePrecision\Year;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

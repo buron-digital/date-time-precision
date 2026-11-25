@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\PeriodLimit;
+namespace BuronDigital\DateTimePrecision\PeriodLimit;
 
-use DigitalCraftsman\DateTimePrecision\PeriodLimit;
+use BuronDigital\DateTimePrecision\PeriodLimit;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Year;
+namespace BuronDigital\DateTimePrecision\Year;
 
-use DigitalCraftsman\DateTimePrecision\PeriodLimit;
-use DigitalCraftsman\DateTimePrecision\Year;
-use DigitalCraftsman\DateTimePrecision\Years;
+use BuronDigital\DateTimePrecision\PeriodLimit;
+use BuronDigital\DateTimePrecision\Year;
+use BuronDigital\DateTimePrecision\Years;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

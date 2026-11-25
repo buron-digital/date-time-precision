@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\CalendarPeriod;
+namespace BuronDigital\DateTimePrecision\CalendarPeriod;
 
-use DigitalCraftsman\DateTimePrecision\CalendarPeriod;
-use DigitalCraftsman\DateTimePrecision\Exception\InvalidCalendarPeriod;
+use BuronDigital\DateTimePrecision\CalendarPeriod;
+use BuronDigital\DateTimePrecision\Exception\InvalidCalendarPeriod;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

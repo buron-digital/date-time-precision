@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Date;
+namespace BuronDigital\DateTimePrecision\Date;
 
-use DigitalCraftsman\DateTimePrecision\CalendarPeriod;
-use DigitalCraftsman\DateTimePrecision\CalendarUnit;
-use DigitalCraftsman\DateTimePrecision\Date;
-use DigitalCraftsman\DateTimePrecision\Exception\DateIsBefore;
+use BuronDigital\DateTimePrecision\CalendarPeriod;
+use BuronDigital\DateTimePrecision\CalendarUnit;
+use BuronDigital\DateTimePrecision\Date;
+use BuronDigital\DateTimePrecision\Exception\DateIsBefore;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

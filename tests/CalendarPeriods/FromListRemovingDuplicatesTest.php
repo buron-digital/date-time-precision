@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\CalendarPeriods;
+namespace BuronDigital\DateTimePrecision\CalendarPeriods;
 
-use DigitalCraftsman\DateTimePrecision\CalendarPeriod;
-use DigitalCraftsman\DateTimePrecision\CalendarPeriods;
-use DigitalCraftsman\DateTimePrecision\Exception\CollectionContainsDuplicates;
+use BuronDigital\DateTimePrecision\CalendarPeriod;
+use BuronDigital\DateTimePrecision\CalendarPeriods;
+use BuronDigital\DateTimePrecision\Exception\CollectionContainsDuplicates;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

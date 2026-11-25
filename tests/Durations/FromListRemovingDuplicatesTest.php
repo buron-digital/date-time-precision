@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Durations;
+namespace BuronDigital\DateTimePrecision\Durations;
 
-use DigitalCraftsman\DateTimePrecision\Duration;
-use DigitalCraftsman\DateTimePrecision\Durations;
-use DigitalCraftsman\DateTimePrecision\Exception\CollectionContainsDuplicates;
+use BuronDigital\DateTimePrecision\Duration;
+use BuronDigital\DateTimePrecision\Durations;
+use BuronDigital\DateTimePrecision\Exception\CollectionContainsDuplicates;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

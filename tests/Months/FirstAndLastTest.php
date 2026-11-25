@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Months;
+namespace BuronDigital\DateTimePrecision\Months;
 
-use DigitalCraftsman\DateTimePrecision\Month;
-use DigitalCraftsman\DateTimePrecision\Months;
+use BuronDigital\DateTimePrecision\Month;
+use BuronDigital\DateTimePrecision\Months;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

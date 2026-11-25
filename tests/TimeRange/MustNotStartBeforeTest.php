@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\TimeRange;
+namespace BuronDigital\DateTimePrecision\TimeRange;
 
-use DigitalCraftsman\DateTimePrecision\Exception\TimeRangeStartIsBefore;
-use DigitalCraftsman\DateTimePrecision\Test\Exception\CustomTimeRangeStartIsBefore;
-use DigitalCraftsman\DateTimePrecision\Time;
-use DigitalCraftsman\DateTimePrecision\TimeRange;
+use BuronDigital\DateTimePrecision\Exception\TimeRangeStartIsBefore;
+use BuronDigital\DateTimePrecision\Test\Exception\CustomTimeRangeStartIsBefore;
+use BuronDigital\DateTimePrecision\Time;
+use BuronDigital\DateTimePrecision\TimeRange;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

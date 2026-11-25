@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Day;
+namespace BuronDigital\DateTimePrecision\Day;
 
-use DigitalCraftsman\DateTimePrecision\Day;
+use BuronDigital\DateTimePrecision\Day;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

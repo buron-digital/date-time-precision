@@ -8,22 +8,22 @@
   "mutators": {
     "@default": {
       "ignore": [
-        "DigitalCraftsman\\DateTimePrecision\\Exception\\*::__construct"
+        "BuronDigital\\DateTimePrecision\\Exception\\*::__construct"
       ]
     },
     "InstanceOf_": {
       "ignore": [
-        "DigitalCraftsman\\DateTimePrecision\\Moment",
+        "BuronDigital\\DateTimePrecision\\Moment",
       ]
     },
     "IncrementInteger": {
       "ignore": [
-        "DigitalCraftsman\\DateTimePrecision\\Doctrine\\WeekdaysType::convertToPHPValue"
+        "BuronDigital\\DateTimePrecision\\Doctrine\\WeekdaysType::convertToPHPValue"
       ]
     },
     "DecrementInteger": {
       "ignore": [
-        "DigitalCraftsman\\DateTimePrecision\\Doctrine\\WeekdaysType::convertToPHPValue"
+        "BuronDigital\\DateTimePrecision\\Doctrine\\WeekdaysType::convertToPHPValue"
       ]
     }
   },

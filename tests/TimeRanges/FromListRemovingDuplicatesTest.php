@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\TimeRanges;
+namespace BuronDigital\DateTimePrecision\TimeRanges;
 
-use DigitalCraftsman\DateTimePrecision\Exception\CollectionContainsDuplicates;
-use DigitalCraftsman\DateTimePrecision\Time;
-use DigitalCraftsman\DateTimePrecision\TimeRange;
-use DigitalCraftsman\DateTimePrecision\TimeRanges;
+use BuronDigital\DateTimePrecision\Exception\CollectionContainsDuplicates;
+use BuronDigital\DateTimePrecision\Time;
+use BuronDigital\DateTimePrecision\TimeRange;
+use BuronDigital\DateTimePrecision\TimeRanges;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

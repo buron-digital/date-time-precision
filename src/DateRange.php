@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision;
+namespace BuronDigital\DateTimePrecision;
 
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\ArrayNormalizable;
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\NullableArrayDenormalizable;
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\NullableArrayDenormalizableTrait;
+use BuronDigital\SelfAwareNormalizers\Serializer\ArrayNormalizable;
+use BuronDigital\SelfAwareNormalizers\Serializer\NullableArrayDenormalizable;
+use BuronDigital\SelfAwareNormalizers\Serializer\NullableArrayDenormalizableTrait;
 
 /**
  * A closed range of dates. Start and end are both part of the range, so a range with the same start and end contains exactly one date.

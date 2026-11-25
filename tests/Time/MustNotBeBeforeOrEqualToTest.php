@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Time;
+namespace BuronDigital\DateTimePrecision\Time;
 
-use DigitalCraftsman\DateTimePrecision\Exception\TimeIsBeforeOrEqualTo;
-use DigitalCraftsman\DateTimePrecision\Test\Exception\CustomTimeIsBeforeOrEqualTo;
-use DigitalCraftsman\DateTimePrecision\Time;
+use BuronDigital\DateTimePrecision\Exception\TimeIsBeforeOrEqualTo;
+use BuronDigital\DateTimePrecision\Test\Exception\CustomTimeIsBeforeOrEqualTo;
+use BuronDigital\DateTimePrecision\Time;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

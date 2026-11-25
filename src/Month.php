@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision;
+namespace BuronDigital\DateTimePrecision;
 
-use DigitalCraftsman\SelfAwareNormalizers\Doctrine\StringNormalizableTypeWithMaxLength;
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\NullableStringDenormalizable;
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\NullableStringDenormalizableTrait;
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\StringNormalizable;
+use BuronDigital\SelfAwareNormalizers\Doctrine\StringNormalizableTypeWithMaxLength;
+use BuronDigital\SelfAwareNormalizers\Serializer\NullableStringDenormalizable;
+use BuronDigital\SelfAwareNormalizers\Serializer\NullableStringDenormalizableTrait;
+use BuronDigital\SelfAwareNormalizers\Serializer\StringNormalizable;
 
 final readonly class Month implements \Stringable, StringNormalizable, NullableStringDenormalizable, StringNormalizableTypeWithMaxLength
 {

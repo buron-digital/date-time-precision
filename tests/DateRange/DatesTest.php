@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\DateRange;
+namespace BuronDigital\DateTimePrecision\DateRange;
 
-use DigitalCraftsman\DateTimePrecision\Date;
-use DigitalCraftsman\DateTimePrecision\DateRange;
-use DigitalCraftsman\DateTimePrecision\Dates;
-use DigitalCraftsman\DateTimePrecision\PeriodLimit;
+use BuronDigital\DateTimePrecision\Date;
+use BuronDigital\DateTimePrecision\DateRange;
+use BuronDigital\DateTimePrecision\Dates;
+use BuronDigital\DateTimePrecision\PeriodLimit;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

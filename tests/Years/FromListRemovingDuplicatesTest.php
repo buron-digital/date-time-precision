@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Years;
+namespace BuronDigital\DateTimePrecision\Years;
 
-use DigitalCraftsman\DateTimePrecision\Exception\CollectionContainsDuplicates;
-use DigitalCraftsman\DateTimePrecision\Year;
-use DigitalCraftsman\DateTimePrecision\Years;
+use BuronDigital\DateTimePrecision\Exception\CollectionContainsDuplicates;
+use BuronDigital\DateTimePrecision\Year;
+use BuronDigital\DateTimePrecision\Years;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

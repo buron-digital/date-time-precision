@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Exception;
+namespace BuronDigital\DateTimePrecision\Exception;
 
 /** @psalm-immutable */
 final class TimeIsBeforeOrEqualTo extends \InvalidArgumentException

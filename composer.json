@@ -1,10 +1,10 @@
 {
-  "name": "digital-craftsman/date-time-precision",
+  "name": "buron-digital/date-time-precision",
   "description": "A Symfony bundle for more precise date and time handling through value objects",
   "type": "symfony-bundle",
   "require": {
     "php": "8.5.*|8.6.*",
-    "digital-craftsman/self-aware-normalizers": "^1.4.0",
+    "buron-digital/self-aware-normalizers": "^2.0.0",
     "doctrine/dbal": "^4.5",
     "symfony/framework-bundle": "^7.4|^8.0",
     "symfony/serializer": "^7.4|^8.0"
@@ -17,19 +17,19 @@
   },
   "autoload": {
     "psr-4": {
-      "DigitalCraftsman\\DateTimePrecision\\": "src/"
+      "BuronDigital\\DateTimePrecision\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "DigitalCraftsman\\DateTimePrecision\\": "tests/"
+      "BuronDigital\\DateTimePrecision\\": "tests/"
     }
   },
   "license": "MIT",
   "authors": [
     {
       "name": "Christian Kolb",
-      "email": "info@digital-craftsman.de"
+      "email": "info@buron.digital"
     }
   ],
   "config": {

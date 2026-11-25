@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Week;
+namespace BuronDigital\DateTimePrecision\Week;
 
-use DigitalCraftsman\DateTimePrecision\PeriodLimit;
-use DigitalCraftsman\DateTimePrecision\Week;
+use BuronDigital\DateTimePrecision\PeriodLimit;
+use BuronDigital\DateTimePrecision\Week;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

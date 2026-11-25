@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Durations;
+namespace BuronDigital\DateTimePrecision\Durations;
 
-use DigitalCraftsman\DateTimePrecision\Duration;
-use DigitalCraftsman\DateTimePrecision\Durations;
+use BuronDigital\DateTimePrecision\Duration;
+use BuronDigital\DateTimePrecision\Durations;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
@@ -62,7 +62,7 @@ final class ConstructionTest extends TestCase
         };
 
         // -- Assert
-        $this->expectException(\DigitalCraftsman\DateTimePrecision\Exception\CollectionContainsDuplicates::class);
+        $this->expectException(\BuronDigital\DateTimePrecision\Exception\CollectionContainsDuplicates::class);
 
         // -- Act
         new Durations($elements);

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Month;
+namespace BuronDigital\DateTimePrecision\Month;
 
-use DigitalCraftsman\DateTimePrecision\Exception\InvalidMonth;
-use DigitalCraftsman\DateTimePrecision\Month;
-use DigitalCraftsman\DateTimePrecision\Year;
+use BuronDigital\DateTimePrecision\Exception\InvalidMonth;
+use BuronDigital\DateTimePrecision\Month;
+use BuronDigital\DateTimePrecision\Year;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DoesNotPerformAssertions;
 use PHPUnit\Framework\Attributes\Test;

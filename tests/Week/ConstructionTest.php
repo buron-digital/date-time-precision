@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Week;
+namespace BuronDigital\DateTimePrecision\Week;
 
-use DigitalCraftsman\DateTimePrecision\Exception\InvalidWeek;
-use DigitalCraftsman\DateTimePrecision\Week;
-use DigitalCraftsman\DateTimePrecision\Year;
+use BuronDigital\DateTimePrecision\Exception\InvalidWeek;
+use BuronDigital\DateTimePrecision\Week;
+use BuronDigital\DateTimePrecision\Year;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

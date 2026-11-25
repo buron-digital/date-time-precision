@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Moment;
+namespace BuronDigital\DateTimePrecision\Moment;
 
-use DigitalCraftsman\DateTimePrecision\Exception\MomentIsNotBeforeOrEqualTo;
-use DigitalCraftsman\DateTimePrecision\Moment;
-use DigitalCraftsman\DateTimePrecision\Test\Exception\CustomMomentIsNotBeforeOrEqualTo;
+use BuronDigital\DateTimePrecision\Exception\MomentIsNotBeforeOrEqualTo;
+use BuronDigital\DateTimePrecision\Moment;
+use BuronDigital\DateTimePrecision\Test\Exception\CustomMomentIsNotBeforeOrEqualTo;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

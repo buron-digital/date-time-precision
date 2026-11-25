@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\Recurrence;
+namespace BuronDigital\DateTimePrecision\Recurrence;
 
-use DigitalCraftsman\DateTimePrecision\Date;
-use DigitalCraftsman\DateTimePrecision\Dates;
-use DigitalCraftsman\DateTimePrecision\Day;
-use DigitalCraftsman\DateTimePrecision\Days;
-use DigitalCraftsman\DateTimePrecision\PeriodLimit;
-use DigitalCraftsman\DateTimePrecision\Recurrence;
-use DigitalCraftsman\DateTimePrecision\Weekday;
-use DigitalCraftsman\DateTimePrecision\Weekdays;
+use BuronDigital\DateTimePrecision\Date;
+use BuronDigital\DateTimePrecision\Dates;
+use BuronDigital\DateTimePrecision\Day;
+use BuronDigital\DateTimePrecision\Days;
+use BuronDigital\DateTimePrecision\PeriodLimit;
+use BuronDigital\DateTimePrecision\Recurrence;
+use BuronDigital\DateTimePrecision\Weekday;
+use BuronDigital\DateTimePrecision\Weekdays;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;

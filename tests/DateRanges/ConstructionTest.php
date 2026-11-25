@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision\DateRanges;
+namespace BuronDigital\DateTimePrecision\DateRanges;
 
-use DigitalCraftsman\DateTimePrecision\Date;
-use DigitalCraftsman\DateTimePrecision\DateRange;
-use DigitalCraftsman\DateTimePrecision\DateRanges;
+use BuronDigital\DateTimePrecision\Date;
+use BuronDigital\DateTimePrecision\DateRange;
+use BuronDigital\DateTimePrecision\DateRanges;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
@@ -63,7 +63,7 @@ final class ConstructionTest extends TestCase
         };
 
         // -- Assert
-        $this->expectException(\DigitalCraftsman\DateTimePrecision\Exception\CollectionContainsDuplicates::class);
+        $this->expectException(\BuronDigital\DateTimePrecision\Exception\CollectionContainsDuplicates::class);
 
         // -- Act
         new DateRanges($elements);

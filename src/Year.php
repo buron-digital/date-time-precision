@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DigitalCraftsman\DateTimePrecision;
+namespace BuronDigital\DateTimePrecision;
 
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\IntNormalizable;
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\NullableIntDenormalizable;
-use DigitalCraftsman\SelfAwareNormalizers\Serializer\NullableIntDenormalizableTrait;
+use BuronDigital\SelfAwareNormalizers\Serializer\IntNormalizable;
+use BuronDigital\SelfAwareNormalizers\Serializer\NullableIntDenormalizable;
+use BuronDigital\SelfAwareNormalizers\Serializer\NullableIntDenormalizableTrait;
 
 final readonly class Year implements IntNormalizable, NullableIntDenormalizable
 {
